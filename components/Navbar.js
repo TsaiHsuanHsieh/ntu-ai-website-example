@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="shadow-sm w-full h-[50px] flex justify-between items-center px-5 fixed z-[999] top-0 bg-white">
             <Link href="/" className="font-bold text-lg text-slate-900 hover:text-pink-500">
-                NextJS with OpenAI
+                AI 網站開發應用
             </Link>
             <div>
                 <Link href="/" className="mr-3 text-slate-900 hover:text-pink-500 font-semibold">

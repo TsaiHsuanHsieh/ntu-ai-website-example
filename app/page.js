@@ -61,7 +61,7 @@ export default function Home() {//畫面渲染會走的流程
   return (
     <>
       <CurrentFileIndicator filePath="/app/page.js" />
-      <PageHeader title="AI Vocabulary Generator" icon={faEarthAmericas} />
+      <PageHeader title="AI 單字產生器" icon={faEarthAmericas} />
       <section>
         <div className="container mx-auto">
           <form onSubmit={submitHandler}>
